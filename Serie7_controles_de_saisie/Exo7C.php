@@ -7,11 +7,11 @@ function userLogin(string $username, string $password, array $users): bool
 {
     
     if (!array_key_exists($username, $users)) {
-        return false; // Utilisateur non trouvé
+        return false; 
     }
 
     if ($users[$username] !== $password) {
-        return false; // Mot de passe incorrect
+        return false; 
     }
 
     if (!passwordCheck($password)) {
