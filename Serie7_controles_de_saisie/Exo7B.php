@@ -29,7 +29,4 @@ function passwordCheck(string $password): bool
 }
 
 
-var_dump(passwordCheck("MotDePasse1!")); // bool(true)
-var_dump(passwordCheck("motdepasse"));   // bool(false)
-var_dump(passwordCheck("MotDepasse1"));  // bool(false)
-var_dump(passwordCheck("MotDe1!"));      // bool(false)
+
